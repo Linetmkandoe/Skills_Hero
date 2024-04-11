@@ -1,0 +1,81 @@
+.upgrade{
+  display: flex;  
+}
+.skills{
+    display: flex;
+    gap: 60px;
+}
+#skills{
+    background-color: white;
+    padding-left: 5px;
+    color: red;
+}
+#now{
+    background-color: red;
+    color: white;
+    padding-left: 5px;
+}
+#image{
+    width: 00px;
+}
+.subs{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.navbar{
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+}
+#icon{
+    width: 30px;
+}
+.js{
+    
+   justify-content: space-around; 
+}
+#join{
+    background-color: red;
+    color: white;
+}
+#Login{
+    background-color: white;
+    color: red;
+}
+#icon2{
+    width: 40px;
+    height: 40px;
+}
+#icon3{
+    width: 40px;
+    height: 40px;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+}
+#slack{
+    width: 50px;
+    height: 50px;
+}
+#icon5{
+    height: 50px;
+}
+#icon6{
+    height: 50px;
+}
+
+#icon4{
+    width: 50px;
+    height: 50px;
+}
+@media screen and(width:375){
+   .navbar{
+    flex-wrap: wrap;
+   } 
+   .upgrade{
+    flex-wrap: wrap;
+    display: block;
+   }
+}
