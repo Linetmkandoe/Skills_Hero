@@ -1,43 +1,48 @@
-.upgrade{
-  display: flex;  
-}
-.skills{
-    display: flex;
-    gap: 60px;
+.motivation{
+  display:flex 
 }
 #skills{
     background-color: white;
     padding-left: 5px;
     color: red;
+    font-size: 20px;
 }
 #now{
     background-color: red;
     color: white;
-    padding-left: 5px;
+    padding-right: 10px;
+    font-size: 20px;
 }
 #image{
     width: 00px;
 }
-.subs{
+.subscription{
     display: flex;
     justify-content: space-around;
     
 }
 .navbar{
     display: flex;
-    gap: 50px;
-    justify-content: space-around;
+    padding-bottom: 50px;
+    
+}
+#hero{
+    color: red;
 }
 #icon{
     width: 30px;
 }
-.js{
+.hero{
     
    justify-content: space-around; 
 }
 #join{
     background-color: red;
     color: white;
+}
+.skill{
+    margin-top: 90px;
+    
 }
 #Login{
     background-color: white;
@@ -46,6 +51,15 @@
 #icon2{
     width: 40px;
     height: 40px;
+}
+#color{
+    color:red;
+}
+#head{
+    font-size: 80px;
+}
+button{
+    border-radius: 6px;
 }
 #icon3{
     width: 40px;
@@ -60,22 +74,74 @@
     height: 50px;
 }
 #icon5{
-    height: 50px;
+    height: 70px;
 }
 #icon6{
-    height: 50px;
+    height: 80px;
+}
+#icon7{
+    height: 40px;
 }
 
 #icon4{
     width: 50px;
     height: 50px;
 }
+#img{
+    width: 500px;
+    height: 500px;
+}
+
+nav{flex: 1;
+    text-align: center;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+nav ul{
+   display: inline-block;
+   list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+        text-decoration: none;
+        color: #0B0202;
+}
+
 @media screen and(width:375){
    .navbar{
-    flex-wrap: wrap;
+    display: table;
+    
    } 
-   .upgrade{
-    flex-wrap: wrap;
-    display: block;
+.motivation{
+    font-size: small;
+    flex-direction: column-reverse;
    }
+.hero{
+    
+    justify-content: space-around; 
 }
+
+.icons{
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+   
+}
+/* @media screen and(width:412){
+    .motivation{
+      flex-direction: column-reverse; 
+
+    }
+
+} */
+/* @media screen and(width:1024){
+   .subscription{
+    padding-left: 30px;
+   } 
+    
+} */
+
+
