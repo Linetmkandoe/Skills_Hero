@@ -13,8 +13,37 @@
     padding-right: 10px;
     font-size: 20px;
 }
+.hamburger-menu {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    width: 30px;
+    height: 22px;
+}
+.hamburger-menu span {
+    background-color: #333;
+    display: block;
+    height: 2px;
+    margin-bottom: 5px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+}
+.navigation-menu ul {
+    list-style: none;
+    padding: 0;
+}
+.navigation-menu ul li a {
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+    color: #333;
+}
 #image{
     width: 00px;
+}
+.statement{
+   font-size: 30px; 
 }
 .subscription{
     display: flex;
@@ -24,6 +53,15 @@
 .navbar{
     display: flex;
     padding-bottom: 50px;
+
+    display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     
 }
 #hero{
@@ -91,11 +129,15 @@ button{
     width: 500px;
     height: 500px;
 }
+.nav{
+    
+}
 
 nav{flex: 1;
     text-align: center;
     margin-left: 100px;
     margin-bottom: 30px;
+    font-size: 20px;
 }
 nav ul{
    display: inline-block;
@@ -127,6 +169,32 @@ a{
 .icons{
     flex-wrap: wrap;
     justify-content: space-around;
+}
+.hamburger-menu span {
+    background-color: #333;
+    display: block;
+    height: 2px;
+    margin-bottom: 5px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+ }
+ .navigation-menu ul {
+    list-style: none;
+    padding: 0;
+}
+#img{
+    width: 300px;
+    height: 200px;
+    padding-right: 60px;
 }
    
 }
