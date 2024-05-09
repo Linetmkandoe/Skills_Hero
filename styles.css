@@ -1,0 +1,261 @@
+.motivation {
+  display: flex;
+}
+#buttonskills {
+  background-color: white;
+  padding-left: 2px;
+  color: red;
+  font-size: 20px;
+}
+#now {
+  background-color: red;
+  color: white;
+  padding-right: 10px;
+  font-size: 20px;
+}
+.hamburger-menu {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  width: 30px;
+  height: 22px;
+}
+.hamburger-menu span {
+  background-color: #333;
+  display: block;
+  height: 2px;
+  margin-bottom: 5px;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+}
+.navigation-menu ul {
+  list-style: none;
+  padding: 0;
+}
+.navigation-menu ul li a {
+  display: block;
+  padding: 10px 0;
+  text-decoration: none;
+  color: #333;
+}
+#image {
+  width: 00px;
+}
+.statement {
+  font-size: 30px;
+}
+.subscription {
+  display: flex;
+  justify-content: space-around;
+}
+.navbar {
+  display: flex;
+  padding-bottom: 50px;
+
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding-left: 100px;
+}
+
+#icon {
+  width: 30px;
+}
+.hero {
+  justify-content: space-around;
+}
+#join {
+  background-color: red;
+  color: white;
+}
+.skill {
+  margin-top: 90px;
+}
+#Login {
+  background-color: white;
+  color: red;
+}
+#icon2 {
+  flex-wrap: wrap;
+  width: 40px;
+  height: 40px;
+}
+#color {
+  color: red;
+}
+#head {
+  font-size: 80px;
+}
+button {
+  border-radius: 6px;
+}
+#icon3 {
+  width: 40px;
+  height: 40px;
+}
+.icons {
+  display: flex;
+  justify-content: space-around;
+}
+#slack {
+  width: 50px;
+  height: 50px;
+}
+#icon5 {
+  height: 70px;
+}
+#icon6 {
+  height: 80px;
+}
+#icon7 {
+  height: 40px;
+}
+
+#icon4 {
+  width: 50px;
+  height: 50px;
+}
+#heroimg{
+  width: 550px;
+  height: 550px;
+}
+nav {
+  flex: 1;
+  text-align: center;
+  margin-left: 100px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+a {
+  text-decoration: none;
+  color: #0b0202;
+}
+.landingpagecontentid{
+ display: flex;
+ justify-content: space-around;
+ padding-left: 0px;
+
+}
+.footer{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.landing{
+  padding-left: 0px;
+}
+.landingpage{
+  padding-left: 0px;
+}
+.loginb{
+  padding-left: 20px;
+}
+#content {
+  font-size: 70px;
+  
+}
+#state{
+  font-size: 30px;
+}
+#blue{
+  color: rgb(2, 2, 103);
+}
+.buttonskills{
+  padding-top: 30px;
+  border-radius: 100px;
+}
+
+@media only screen and (min-width: 280px) and(max-width:400px) {
+  .navbar {
+    display: table;
+  }
+  .landingpagecontentid {
+    font-size: 30px;
+    display: list-item;
+   
+  }
+  .landingpage{
+    flex-direction: column;
+  }
+  #content {
+    font-size: 40px;
+  }
+
+  .icons {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .hamburger-menu span {
+    background-color: #333;
+    display: block;
+    height: 2px;
+    margin-bottom: 5px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+  }
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  nav ul {
+    display: inline-block;
+    list-style-type: none;
+  }
+  .navigation-menu ul {
+    list-style: none;
+    padding: 0;
+  }
+   #img {
+    width: 100px;
+    height: 00px;
+    padding-right: 60px;
+  }
+  .subscription {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+  }
+  
+  .icon {
+    display: flex;
+    flex-direction: column;
+  }
+  #color{
+    font-size: 30px;
+  }
+  #buttonskills{
+    font-size: 10px;
+    padding-left: 2px;
+    margin-top: px;
+  }
+  .footer{
+    flex-direction: column;
+
+
+  }
+  #now{
+    font-size: 20px;
+    
+  }
+  #heroimg{
+    width: 450px;
+    height: 450px;
+  }
+
+}
+
